@@ -1,0 +1,24 @@
+div#header{
+	color: red;
+	height: 130px;
+	border: 2px solid black;
+	text-align: center;
+	line-height: 130px;
+}
+div#content{
+	color: green;
+	height: 200px;
+	border: 2px dotted black;
+	text-align: center;
+	line-height: 200px;
+}
+div#footer{
+	color: blue;
+	height: 200px;
+	border: 2px dashed black;
+	text-align: center;
+	line-height: 200px;
+}
+img{
+	height: 130px;
+}

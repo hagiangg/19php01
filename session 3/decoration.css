@@ -1,0 +1,35 @@
+body{
+	border: 3px solid red;
+}
+div#logo{
+	color: purple;
+	height: 150px;
+	margin: 20px;
+	border: 3px solid red;
+	text-align: center;
+	line-height: 125px;
+}
+div#menu{
+	color: purple;
+	height: 50px;
+	margin: 20px;
+	border: 3px solid red;
+	text-align: center;
+	line-height: 15px;
+}
+div#content{
+	color: purple;
+	height: 450px;
+	margin: 20px;
+	border: 3px solid red;
+	text-align: center;
+	line-height: 375px;
+}
+div#footer{
+	color: purple;
+	height: 50px;
+	margin: 20px;
+	border: 3px solid red;
+	text-align: center;
+	line-height: 15px;
+}
