@@ -1,0 +1,67 @@
+p{
+	padding-left: 80px;
+}
+header{
+	float: left;
+}
+nav{
+	float: left;
+	margin-left: 50px;
+}
+footer{
+	float: left;
+	margin-left: 50px;
+}
+div#box{
+	height: 50px;
+	width: 300px;
+	margin: 5px;
+	background-color: orange;
+}
+div#box1{
+	height: 200px;
+	width: 300px;
+	margin:10px;
+	margin-left: 5px;
+	background-color: orange;
+}
+.box2::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+div#boxl {
+  	float: left;
+	height: 200px;
+	width: 230px;
+	margin: 5px;
+	background-color: orange;
+}
+div#boxr {
+    float: left;
+	height: 200px;
+	width: 60px;
+	margin: 5px;
+	background-color: orange;
+}
+div#boxx1 {
+ 	float: left;
+	height: 200px;
+	width: 160px;
+	margin: 5px;
+	background-color: orange;
+}
+div#boxx2 {
+ 	float: left;
+	height: 200px;
+	width: 60px;
+	margin: 5px;
+	background-color: orange;
+}
+div#boxx3 {
+ 	float: left;
+	height: 200px;
+	width: 60px;
+	margin: 5px;
+	background-color: orange;
+}

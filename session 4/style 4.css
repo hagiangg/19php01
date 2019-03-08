@@ -1,0 +1,22 @@
+body{
+	border: 2px dotted black;
+}
+div#box1{
+	border: 2px solid black;
+	margin: 20px;
+	margin-right: 60px;
+	padding-top: 30px;
+}
+div#box2{
+	border: 2px dashed black;
+	margin-top: 30px;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
+div#box3{
+	border: 2px dashed black;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
