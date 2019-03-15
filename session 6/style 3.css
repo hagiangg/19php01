@@ -1,0 +1,32 @@
+body{
+	background-image: linear-gradient(to top,white,orange);
+}
+.container{
+	margin:0 auto;
+	width: 50%;
+	border: 1px solid black;
+	border-radius: 30px;
+	box-shadow: 3px 3px 5px gray;
+	background-color: white;
+	background-repeat: no-repeat;
+	text-indent: 10px;
+}
+img{
+	float: left;
+}
+h1{
+	color: orange;
+	text-shadow: 3px 4px 3px gray;
+	text-align: center;
+}
+h3{
+	color: green;
+	text-align: center;
+	font-style: italic;
+}
+.mau{
+	color: green;
+}
+.deco{
+	text-indent: 30px;
+}

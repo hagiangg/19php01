@@ -1,0 +1,19 @@
+img{
+	float: left;
+}
+h1{
+	color: orange;
+	text-shadow: 3px 4px 3px gray;
+	text-align: center;
+}
+h3{
+	color: green;
+	text-align: center;
+	font-style: italic;
+}
+.mau{
+	color: green;
+}
+.deco{
+	text-indent: 30px;
+}
