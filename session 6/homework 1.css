@@ -1,16 +1,19 @@
 *{
 	padding: 0;
 	margin: 0;
+
 }
 .container{
 	width: 90%;
+	height:700px;
 	margin: 0 auto;
+	background-image: url(background.jpg);
 }
 header{
 	border: 1px;
 	background-color: #00CCFF;
 	height:100px;
-	width:90%;
+	width:97%;
 	margin: 10px;
 	padding-top: 10px;
 }
@@ -44,7 +47,7 @@ header{
 	height: 65px;
 	width: 24.5%;
 	margin:5px;
-	margin-left: 10px;
+	/*padding-right: 10px;*/
 	float:left;
 	text-align: center;
 	line-height: 65px;
@@ -53,7 +56,7 @@ nav{
 	border: 1px;
 	background-color: #00CCFF;
 	height: 150px;
-	width:65%;
+	width:70%;
 	margin: 10px;
 	padding-top: 10px;
 	float:left;
@@ -84,17 +87,17 @@ nav{
 	border: 1px;
 	background-color: #0066CC;
 	height: 160px;
-	width:23.5%;
+	width:25%;
 	margin: 10px;
 	float:left;
 	text-align: center;
 	line-height: 160px;
 }
-.bd{
+section{
 	border: 1px;
 	background-color: #00CCFF;
 	height: 300px;
-	width:65%;
+	width:70%;
 	margin: 10px;
 	padding-top: 10px; 
 	float:left;
@@ -125,7 +128,7 @@ nav{
 	border: 1px ;
 	background-color: #00CCFF;
 	height: 300px;
-	width:23.5%;
+	width:25%;
 	margin: 10px;
 	/*padding-left: 5px;*/
 	padding-top: 10px;
@@ -145,58 +148,58 @@ footer{
 	border: 1px ;
 	background-color: #00CCFF;
 	height: 40px;
-	width:90%;
+	width:97%;
 	margin: 10px;
 	padding-top: 10px;
 	float: left;
 }
+section .ad{display:none;}
+
 @media screen and (max-width: 1024px){
-	}
+	.tool{padding-right: 20px;}
+}
 @media screen and (max-width: 768px){
+	.container{height:900px;}
+	.ad{display:none;}
 	nav, .feature, .action, #sidebar{
-		width: 90%;
+		width: 97%;
 	}
 	.feature, .action{
 		height:50px;
 		line-height: 50px;
 		margin: 5px;
 		margin-left: 10px;
-		padding-right: 30px;
 	}
 
 	section{
 		border: 1px;
 		background-color: #00CCFF;
-		height: 410px;
-		width:90%;
+		height: 350px;
+		width:97%;
 		margin: 10px;
 		padding-top: 10px; 
 		float:left;
 	}
-	.bd{
-		height: 380px;
-		width:65%;
-	}
-	.ad{
-		height:150px; 
+	section .ad{
+		display: initial;
+		height:100px; 
 		width:25%;
-		float:right;
+		float:left;
+		margin-top: 5px;
+		line-height: 100px;
 	}
 	.article{
-		width:90%;
+		width:68%;
 		height:100px;
 		line-height: 100px;
 		margin-left: 10px;
 	}
 	
 	.list{
-		width: 100%;
-		height:180px;
-		margin: 30px;
+		width: 93%;
+		height:170px;
 		padding:10px;
-		margin-left: 10px;
-		line-height: 180px;
-		padding-right: 120px;
+		line-height: 150px;
 	}
 	#sidebar{
 		height:100px;
@@ -205,34 +208,39 @@ footer{
 		height:60px;
 		line-height: 60px;
 	}
-	
+	.tool{padding-right: 0px;}
 }
 @media screen and (max-width: 480px){
-	.bd{height: 100px;width:90%;}
+	.container{height: 650px}
+	.list{
+		height: 100px;
+		width:90%;
+		line-height: 100px;
+	}
 	section{height:300px;}
 	.brand,.article{
-		width:92%;
+		width:95%;
 	}
 	.global, .tool{
 		width:40%;
 	}
+	.tool{padding-right: 20px;}
 	.brand,.global, .tool{
 		height:25px;
 		line-height: 25px;
 	}
-	.action,.list{width: 85%;}
+	.action{width: 85%;}
 	#sidebar,.feature{display:none;}
 	nav{height:100px;}
-	.ad{
+	section .ad{
+		/*display:inital;*/
 		height:50px; 
 		width:95%;
 		line-height: 50px;
 	}
-	.article,.list{
+	.article{
 		height:50px; 
-		width:95%;
 		line-height: 50px;
 	}
-	.list{width:60%;}
 
 }
