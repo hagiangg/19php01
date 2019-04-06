@@ -1,0 +1,24 @@
+.container {
+	margin: 0 auto;
+	text-align: center;
+}
+table {
+	margin: 0 auto;
+	background-color: #eef;
+}
+#result {
+	width: 360px;
+	height: 64px;
+}
+.mt {
+	width: 68px;
+	height: 64px;
+}
+.equal {
+	width: 68px;
+	height: 132px;
+}
+.zero {
+	width: 140px;
+	height: 64px;
+}

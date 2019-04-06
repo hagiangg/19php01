@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta charset="utf-8">
+	<meta name="description" content="homework, session 6">
+	<meta name="keywork" content="PHP, CSS, HTML">
+	<link rel="shortcut icon" type="text/css" href="../img/1.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="../css/maytinh.css">
+</head>
+<body>
+	<div class="container">
+	<h1>Calculator</h1>
+	<table>
+		<tr>
+			<td colspan="5"><input id="result" type="text"></td>
+		</tr>
+		<tr>
+			<td><input class="mt" type="button" value="7" onclick="result.value+=this.value"></td>
+			<td><input class="mt" type="button" value="8" onclick="result.value+=this.value"></td>
+			<td><input class="mt" type="button" value="9" onclick="result.value+=this.value"></td>
+			<td><input class="mt" type="button" value="+" onclick="result.value+=this.value"></td>
+			<td><input class="mt" type="button" value="Del" onclick="result.value=result.value.substr(0,result.value.length-1)"></td>
+			
+		</tr>
+		<tr>
+			<td><input class="mt" type="button" value="4" onclick="result.value+=this.value"></td>
+			<td><input class="mt" type="button" value="5" onclick="result.value+=this.value"></td>
+			<td><input class="mt" type="button" value="6" onclick="result.value+=this.value"></td>
+			<td><input class="mt" type="button" value="-" onclick="result.value+=this.value"></td>
+			<td><input class="mt" type="button" value="C" onclick="result.value=''"></td>
+			
+		</tr>
+		<tr>
+			<td><input class="mt" type="button" value="1" onclick="result.value+=this.value"></td>
+			<td><input class="mt" type="button" value="2" onclick="result.value+=this.value"></td>
+			<td><input class="mt" type="button" value="3" onclick="result.value+=this.value"></td>
+			<td><input class="mt" type="button" value="*" onclick="result.value+=this.value"></td>
+			<td rowspan="2"><input class="equal" type="button" value="=" onclick="result.value= eval(result.value)"></td>
+			
+		</tr>
+		<tr>
+			<td colspan="2"><input class="zero" type="button" value="0" onclick="result.value+=this.value"></td>
+			<td><input class="mt" type="button" value="." onclick="result.value+=this.value"></td>
+			<td><input class="mt" type="button" value="/" onclick="result.value+=this.value"></td>
+
+		</tr>
+	</table>
+	</div>
+	<script type="text/javascript" src="../js/maytinh.js"></script>
+</body>
+</html>
