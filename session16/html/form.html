@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form - Session 16</title>
+	<link rel="stylesheet" type="text/css" href="../css/form.css">
+	
+</head>
+<body>
+	<div id="container">
+		<form>
+			<p>Name<span class="require">*</span>:
+				<input type="text" name="name" id="name">
+				<span id="errorname"></span>
+			</p>
+			<p id="birth">Birthday
+				<p>Day <input type="text" name="day" id="day"></p>
+				<p>Month <input type="text" name="month" id="month"></p>
+				<p>Year <input type="text" name="year" id="year"></p>
+			</p>
+			<p id="gender">Gender
+				<input type="radio" name="gender" value="female"> Female
+				<input type="radio" name="gender" value="male"> Male
+			</p>
+			<p>Phone<span class="require">*</span>:
+				<input type="text" name="phone" id="phone">
+				<span id="errorphone"></span>
+			</p>
+			<p>School/University/College<span class="require">*</span>:
+				<input type="text" name="school" id="school">
+				<span id="errorschool"></span>
+			</p>
+			<input type="button" name="submit" value="Register" onclick="checkRegister()">
+			<p id="check"></p>
+			<span id="print"></span>
+		</form>
+	</div>
+	<script type="text/javascript" src="../js/form.js"></script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+header {
+	width: 100%;
+	height: 110px;
+	border: 1px;
+	background-color: #0404B4;
+}
+.logo, .login {
+	float: left;
+	width: 50%;
+}
+h1 {
+	font-size: 45px;
+	font-weight: bold;
+	color: white;
+	line-height: 40px;
+	padding-left: 20%;
+}
+.boxx {width: 95%;}
+.box, .box1, .box2 {
+	float: left;
+	font-size: 13px;
+	float: left;
+	margin-left: 4%;
+	color: white;
+	width: 27.5%;
+}
+
+.box2 {
+	margin-top: 4.7%;
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	width: 12%;
+}
+.mk {
+	text-align: center;
+	float:left;
+	width: 50%;
+	font-size: 13px;
+	color: white;
+	margin-top: 0px;
+	margin-left: 20%;
+}
+nav {
+	height: 600px;
+	width: 100%;
+	float: left;
+	background-color: #e9ebee;
+}
+.hinh, .signup {
+	float: left;
+	width: 47%;
+}
+.signup {
+	margin-left: 5%;
+}
+.hinh1 {height: 300px;}
+.hinh {
+	text-align: center;
+	padding-top: 2%;
+}
+.create {
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 7%;
+}
+.boxname, .boxemail {
+	width: 40%;
+	float: left;
+	margin-right: 4%;
+	margin-bottom: 3%;
+	font-size: 15px;
+	height: 30px;
+	border-radius: 5px;
+}
+.boxemail {
+	width: 85%;
+}
+.box3 {
+	background-color: green;
+	color: white;
+	font-weight: bold;
+	width: 40%;
+	float: left;
+	height: 40px;
+	font-size: 20px;
+}
+.birthday {
+	width: 100%;
+}
+.birth {
+	float: left;
+	width: 40%;
+	font-size: 20px;
+}
+.provide {
+	width: 30%;
+	float: left;
+	color: blue;
+	font-size: 13px;
+	margin-top: 8%;
+}
+.gender {font-size: 20px;}
+.nd {font-size: 14px; color: gray;}
+.gender, .nd {
+	float: left;
+	width: 70%;
+}
+footer{
+	float: left;
+	background-color: #F6F7F9;
+	height: 250px;
+}
+li {
+	list-style-type: none;
+	float: left;
+	margin-right: 2%;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+.fb { margin: 4%; }
+.border, .menu, .fb {
+	float: left;
+	width: 90%;
+	font-size: 14px;
+	margin-left: 6%;
+}
+.border {
+	text-align: center;
+	margin-top: 5%;
+	padding-bottom: 2%;
+}
+.menu {
+	border-top: 1px solid gray;
+	text-align: center;
+	padding-top: 2%;
+}
+@media screen and (max-width: 1024px){
+	
+}
+@media screen and (max-width: 768px){
+	header { height: 90px; }
+	h1 { font-size: 30px; }
+	.box, .box1, .box2, .mk, .provide, .nd,.border, .menu, .fb { font-size: 11px;}
+	.boxname, .boxemail {
+		font-size: 13px;
+		height: 25px;
+	}
+	.free {font-size: 15px;}
+	.box2{margin-top: 6%;}
+	nav {height: 500px;}
+	.hinh1 {height: 200px;}
+	.create {font-size: 25px;}
+	.birth { 
+		font-size: 15px; 
+		width: 55%;
+	}
+	.gender {font-size: 15px;}
+	footer {height: 200px;}
+
+}
+@media screen and (max-width: 480px){
+	header {height: 85px;}
+	h1 { font-size: 25px; }
+	.box, .box1, .box2, .mk, .provide, .nd,.border, .menu, .fb { font-size: 9px;}
+	.boxname, .boxemail {
+		font-size: 11px;
+		height: 20px;
+	}
+	.box2{
+		width: 17%;
+		margin-top: 10%;
+	}
+	.free {font-size: 11px;}
+	nav {height: 400px;}
+	.hinh1 {height: 100px;}
+	.create {font-size: 15px;}
+	.birth { 
+		font-size: 10px; 
+		width: 60%;
+	}
+	.day {
+		font-size: 10px;
+		width: 30%;
+	}
+	.gender {font-size: 10px;}
+	footer {height: 150px;}
+}

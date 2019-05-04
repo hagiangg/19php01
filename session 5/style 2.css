@@ -1,0 +1,58 @@
+
+.logo{
+	float: left;
+	border: 1px solid black;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: red;
+}
+.banner{
+	float: left;
+	border: 1px solid black;
+	width: 300px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+
+#menu{
+	border: 1px solid black; 
+	height: 150px;
+	width:400px;
+	text-align: center;
+	line-height: 150px;
+}
+#content{
+	border: 1px solid black; 
+	height:300px;
+	width: 400px;
+	text-align: center;
+	line-height: 300px;
+}
+
+.footer_left{
+	float: left;
+	border: 1px solid black;
+	width:200px;
+	height: 100px;
+	line-height: 100px;
+}
+.footer_right{
+	float: left;
+	border: 1px solid black;
+	width: 200px;
+	height:100px;
+	text-align: center;
+	line-height: 100px;
+}
+.footer_left .logo{
+	height:100px;
+	width: 200px;
+	line-height: 100px;
+	color:green;
+}
+.banner, #menu{
+	color:blue;
+}

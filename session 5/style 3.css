@@ -1,0 +1,74 @@
+#container{
+	width:90%;
+	height:400px;
+}
+header{
+	border: 1px solid black;
+	width: 90%;
+	height: 50px;
+}
+.logo{
+	float: left;
+	/*border: 1px solid black;*/
+	width: 30%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: red;
+}
+.banner{
+	float: left;
+	border-left: 1px solid black;
+	width: 60%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+section{
+	/*border: 1px solid black;*/
+	/*width: 90%;*/
+	height: 300px;
+}
+#menu{
+	border-bottom: 1px solid black; 
+	height: 150px;
+	width:90%;
+	text-align: center;
+	line-height: 150px;
+}
+#content{
+	/*border-top: 1px solid black; */
+	height:300px;
+	width: 90%;
+	text-align: center;
+	line-height: 150px;
+}
+footer{
+	border: 1px solid black;
+	width: 90%;
+	height:100px;
+}
+.footer_left{
+	float: left;
+	border: 1px solid black;
+	width:45%;
+	height: 100px;
+	line-height: 100px;
+}
+.footer_right{
+	float: left;
+	/*border: 1px solid black;*/
+	width: 45%;
+	height:100px;
+	text-align: center;
+	line-height: 100px;
+}
+.footer_left .logo{
+	height:100px;
+	width: 45%;
+	line-height: 100px;
+	color:green;
+}
+.banner, #menu{
+	color:blue;
+}

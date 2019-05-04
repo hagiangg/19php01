@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example 2 - Session 10</title>
+	<meta charset="utf-8">
+	<meta name="description" content="homework, session 6">
+	<meta name="keywork" content="PHP, CSS, HTML">
+	<link rel="shortcut icon" type="text/css" href="../img/1.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="../css/form.css">
+</head>
+<body>
+	<h1>Form example</h1>
+	<form action="#" method="POST" name="register">
+		<p>Name <input type="text" name="name" disabled value="name"></p>
+		<p>Email <input type="text" name="email" readonly value="name@gmail.com"></p>
+		<p>Password <input type="password" name="password"></p>
+		<p> <input type="submit" name="submit" value="Register"></p>
+		<p> <input type="reset" name="reset" value="Reset"></p>
+		<p> <input type="button" name="text" value="OK"></p>
+		<p> <input type="image" src="../img/submit.png" name="text"></p>
+	</form>
+	<h2>Form example</h2>
+	<form action="#" method="POST" name="register2">
+		<p>Name <input type="text" name="name" placeholder="Please input your name"></p>
+		<p>Email <input type="text" name="email" placeholder="Please input your email"></p>
+		<p>Password <input type="password" name="password"></p>
+		<input type="hidden" name="my_id" value="1234424341">
+		<p>Gender
+			<input type="radio" name="gender" value="male"> Male
+			<input type="radio" name="gender" value="female"> Female
+			<input type="radio" name="gender" value="other"> Other
+		</p>
+		<p>Favourite
+			<input type="checkbox" name="football" value="football"> Football
+			<input type="checkbox" name="shopping" value="shopping"> Shopping
+			<input type="checkbox" name="film" value="film"> Film
+		</p>
+		<p>Country
+			<select name="country">
+				<option value="vni">Viet Nam</option>
+				<option value="lao">Lao</option>
+				<option value="cam">Campuchia</option>
+			</select>
+		</p>
+		<p>
+			<textarea name="about" rows="6" cols="40"></textarea>
+		</p>
+		<p>Avatar
+			<input type="file" name="avatar">
+		</p>
+		<p> <input type="submit" name="submit" value="Register"></p>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+#changestyle {
+	color: red;
+	font-size: 13px;
+}
+#changeImage {
+	height: 100px;
+}
+
+#hiddenImage {
+	height: 100px;
+}

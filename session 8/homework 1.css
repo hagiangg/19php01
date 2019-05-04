@@ -1,0 +1,97 @@
+.container {
+	width: 95%;
+	margin: 0 auto;
+	padding: 0;
+}
+.thongtin li, .thongtin1 li, .noidung1 li{
+	list-style-type: none;
+}
+header{
+	height: 100px;
+}
+
+.anhthe {
+	margin-top: 15px;
+	margin-left: 5px;
+	float: left;
+	width: 10%;
+	border: 1px;
+	background-color: blue;
+	padding: 10px;
+}
+.thongtin, .thongtin1 {
+	height: 100px;
+	width: 80%;
+	float: left;
+	border: 1px;
+	background-color: yellow;
+	padding: 10px;
+	padding-left: 25px;
+	line-height: 27px;
+}
+.ten {
+	font-size: 25px;
+	font-weight: bold;
+	color: blue;
+}
+.content {
+	height: 70px;
+}
+h3 {
+	font-size: 17px;
+	width: 11.7%;
+	float:left;
+	height: 100px;
+	margin: 5px;
+	border: 1px;
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+.noidung, .noidung1 {
+	float: left;
+	height: 100px;
+	margin: 5px;
+	border: 1px;
+	width:80%;
+}
+.noidung {
+	padding-left: 10px;
+}
+.noidung1 {
+	margin-left: -20px;
+}
+.experience h3, .experience {
+	height: 490px;
+	float: left;
+}
+.thongtin1, .education .thongtin {
+	margin-top: 5px;
+	padding-left: 25px;
+	height:80px;
+	margin-left: -5px;
+}
+.network, .campain, .research, footer .noidung {
+	float: left;
+	width: 70%;
+	margin: 5px;
+	border: 1px;
+	margin-left: -5px;
+	margin-top: -5px;
+}
+.box, .demo {
+	margin: 0px;	
+}
+nav {height:540px;}
+.education h3, .education .thongtin {
+	height: 30px;
+}
+.education .thongtin {
+	padding: 0px;
+	padding-left: 25px;
+}
+footer h3, footer .noidung {
+	height: 50px;
+	float:left;
+}
+

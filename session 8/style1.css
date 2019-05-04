@@ -1,0 +1,12 @@
+ul li {
+	list-style-type: circle;
+}
+ol li:nth-child(odd) {
+	list-style-type: upper-alpha;
+}
+ul li.icon {
+	list-style-image: url('icon.ico');
+}
+ul li:nth-child(2) {
+	list-style-type: square;
+}

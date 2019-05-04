@@ -1,0 +1,19 @@
+body{
+	margin: 0 auto;
+	width: 60%;
+}
+h1 {text-align: center;}
+.require {
+	color: red;
+}
+p {
+	font-weight: bold;
+}
+.box {
+	width:100%;
+}
+.box1{
+	width: 10%;
+	background-color: blue;
+	color: white;
+}

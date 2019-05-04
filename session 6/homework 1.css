@@ -47,7 +47,6 @@ header{
 	height: 65px;
 	width: 24.5%;
 	margin:5px;
-	/*padding-right: 10px;*/
 	float:left;
 	text-align: center;
 	line-height: 65px;
@@ -130,7 +129,6 @@ section{
 	height: 300px;
 	width:25%;
 	margin: 10px;
-	/*padding-left: 5px;*/
 	padding-top: 10px;
 	float:left;
 }
@@ -159,7 +157,7 @@ section .ad{display:none;}
 	.tool{padding-right: 20px;}
 }
 @media screen and (max-width: 768px){
-	.container{height:900px;}
+	.container{height:880px;}
 	.ad{display:none;}
 	nav, .feature, .action, #sidebar{
 		width: 97%;
@@ -172,13 +170,8 @@ section .ad{display:none;}
 	}
 
 	section{
-		border: 1px;
-		background-color: #00CCFF;
 		height: 350px;
 		width:97%;
-		margin: 10px;
-		padding-top: 10px; 
-		float:left;
 	}
 	section .ad{
 		display: initial;
@@ -233,7 +226,6 @@ section .ad{display:none;}
 	#sidebar,.feature{display:none;}
 	nav{height:100px;}
 	section .ad{
-		/*display:inital;*/
 		height:50px; 
 		width:95%;
 		line-height: 50px;

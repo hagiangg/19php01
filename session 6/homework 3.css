@@ -37,7 +37,6 @@ nav,.new1,.new2,.new3{
 }
 .new1,.new2,.new3{
 	width:30%;
-	/*border-top: 1px solid;*/
 }
 .new1,.new2{
 	border-right: 1px solid;
@@ -52,11 +51,9 @@ section,.ads1,.ads2{
 .ads1{
 	width: 60%;
 	border-right: 1px solid;
-	/*border-top: 1px solid;*/
 }
 .ads2{
 	width:30%;
-	/*border-top: 1px solid;*/
 }
 #content{
 	width:90%;
@@ -64,7 +61,6 @@ section,.ads1,.ads2{
 	float:left;
 	text-align: center;
 	line-height: 200px;
-	/*border-top: 1px solid;*/
 }
 footer,.footer1,.footer2{
 	width:90%;
@@ -75,7 +71,6 @@ footer,.footer1,.footer2{
 }
 .footer1,.footer2{
 	width:45%;
-	/*border-top: 1px solid;*/
 }
 .footer1{
 	border-right: 1px solid;

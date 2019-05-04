@@ -1,0 +1,23 @@
+@font-face{
+	font-family: newfont;
+	src: url('fonts/AbhayaLibre-Bold.ttf');
+}
+.demo{
+	font-family: "newfont";
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	text-indent: 10px;
+	text-align: justify;
+	width: 500px;
+	border: 1px solid black;
+	padding: 10px;
+}
+.demo2{
+	color: red;
+	text-decoration: line-through;
+	text-transform: uppercase;
+	text-shadow: 3px 4px 3px gray;
+	font-size: 50px;
+	font-weight: bold;
+}

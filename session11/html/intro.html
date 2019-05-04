@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example 2 - session 11</title>
+	<meta charset="utf-8">
+	<meta name="description" content="homework, session 6">
+	<meta name="keywork" content="PHP, CSS, HTML">
+	<link rel="shortcut icon" type="text/css" href="../img/1.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="../css/intro.css">
+</head>
+<body>
+	<!-- Javascript co the thay doi noi dung cua html -->
+	<div id="changeContent">
+		Hello Javascript!
+	</div>
+	<a href="#" onclick="document.getElementById('changeContent').innerHTML = 'Hello 19PHP01'">Change Content</a>
+
+	<!-- Javascript co the thay doi style cua HTML -->
+	<div id="changeStyle">
+		My Style
+	</div>
+	<a href="#" onclick="document.getElementById('changeStyle').style.color = 'green'">Change Color</a>
+	<a href="#" onclick="document.getElementById('changeStyle').style.fontSize = '20px'">Change FontSize</a>
+
+	<br>
+	<!-- Javascript co the thay doi image cua HTML -->
+	<img src="../img/2.jpg" alt="image" id="changeImage">
+	<a href="#" onclick="document.getElementById('changeImage').scr = '../img/3.jpg'">Change Image</a>
+
+	<!-- Javascript co the an image cua HTML -->
+	<img src="../img/2.jpg" alt="image" id="hiddenImage">
+	<a href="#" onclick="document.getElementById('hiddenImage').style.display = 'none'">Hidden Image</a>
+
+	
+	<a href="#" onclick="document.getElementById('hiddenImage').style.display = 'block'">Show Image</a>
+
+	<script type="text/javascript" src="../js/intro.js"></script>
+</body>
+</html>
