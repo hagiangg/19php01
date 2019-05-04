@@ -3,7 +3,7 @@ function checkRegister() {
 	var phone = document.getElementById('phone').value;
 	var address = document.getElementById('address').value;
 	var firstday = document.getElementById('firstday').value;
-	var lastname = document.getElementById('lastname').value;
+	var lastday = document.getElementById('lastday').value;
 	var firstnumber = document.getElementById('firstnumber').value;
 	var lastnumber = document.getElementById('lastnumber').value;
 	var check = true;	
@@ -75,3 +75,4 @@ function calculate() {
 	}
 	document.getElementById('print').innerHTML = '<br>Số tiền điện: ' + sum;
 }
+
