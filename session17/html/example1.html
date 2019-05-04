@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form - Session 17</title>
+	<link rel="stylesheet" type="text/css" href="../css/example1.css">
+	
+</head>
+<body>
+	<div id="container">
+		<h1>Phiếu tiền điện</h1>
+		<form>
+			<p>Họ và tên<span class="require">*</span>:
+				<input type="text" name="name" id="name">
+				<span id="errorname"></span>
+			</p>
+			<p>Địa chỉ<span class="require">*</span>:
+				<input type="text" name="address" id="address">
+				<span id="erroraddress"></span>
+			</p>
+			<p>Số điện thoại<span class="require">*</span>:
+				<input type="text" name="phone" id="phone">
+				<span id="errorphone"></span>
+			</p>
+			<p>Ngày đầu kỳ<span class="require">*</span>:
+				<input type="date" name="firstday" id="firstday">
+				<span id="errorfirst"></span>
+			</p>
+			<p>Ngày cuối kỳ<span class="require">*</span>:
+				<input type="date" name="lastday" id="lastday">
+				<span id="errorlast"></span>
+			</p>
+			<p>Số đầu kỳ<span class="require">*</span>:
+				<input type="text" name="firstnumber" id="firstnumber">
+				<span id="errorfirstnumber"></span>
+			</p>
+			<p>Số cuối kỳ<span class="require">*</span>:
+				<input type="text" name="lastnumber" id="lastnumber">
+				<span id="errorlastnumber"></span>
+			</p>
+			<p>Ghi chú :
+				<br>
+				<input type="text" name="note" id="note">
+			</p>
+			
+			
+			<input type="button" name="submit" value="In" onclick="checkRegister()">
+			<input type="button" name="submit" value="Tính" onclick="calculate()">
+
+			<p id="check"></p>
+			<p id="print"></p>
+		</form>
+	</div>
+	<script type="text/javascript" src="../js/example1.js"></script>
+</body>
+</html>

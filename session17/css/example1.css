@@ -1,0 +1,27 @@
+body {
+	border: 1px solid red;
+	padding-left: 20px;
+	width: 430px;
+}
+span {
+	color: red;
+}
+.container {
+	margin: 20px auto;
+}
+h1 {text-align: center;}
+#note {
+	height: 100px;
+	width: 400px;
+}
+#name, #address, #phone, #firstday, #lastday, #firstnumber, #lastnumber {
+	height: 20px;
+	margin-left: 40px;
+	width: 220px;
+}
+#address {margin-left: 56px;}
+#phone {margin-left: 18px;}
+#firstday {margin-left: 20px;}
+#lastday {margin-left: 16px;}
+#firstnumber {margin-left: 38px;}
+#lastnumber {margin-left: 34px;}
